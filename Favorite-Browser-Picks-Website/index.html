@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Favorite-Browser-Picks</title>
+<!-- pages-campaign site for Epsilon0xCell/Favorite-Browser-Picks; source of truth: Favorite-Browser-Picks-Website/ on the default branch -->
+<style>
+/* I set this as a magazine buying guide because the repo is a pick, stated in order. Big headline, a ranked list with rules between the entries, and one line from the README pulled large, the way a magazine pulls its own best sentence. */
+*{box-sizing:border-box}
+body{margin:0;background:#f7f3ea;color:#14213a;font-family:Georgia,"Times New Roman",serif;line-height:1.6}
+.masthead{border-bottom:4px double #14213a;max-width:1020px;margin:0 auto;padding:36px 28px 20px}
+.masthead .issue{font-family:Helvetica,Arial,sans-serif;font-size:12px;letter-spacing:.2em;text-transform:uppercase;display:flex;justify-content:space-between;color:#5a4a2a}
+.masthead img.banner{width:100%;height:auto;display:block;margin:20px 0}
+h1{font-size:56px;line-height:.98;margin:10px 0 10px;letter-spacing:-.02em}
+.dek{font-size:21px;font-style:italic;color:#333;max-width:640px}
+.badges{margin:18px 0 4px}
+.badges img{margin:0 6px 6px 0}
+main{max-width:1020px;margin:0 auto;padding:28px}
+.cols{display:grid;grid-template-columns:2fr 1fr;gap:44px}
+@media(max-width:760px){.cols{grid-template-columns:1fr}h1{font-size:40px}}
+h2{font-family:Helvetica,Arial,sans-serif;font-size:13px;letter-spacing:.18em;text-transform:uppercase;border-top:3px solid #14213a;padding-top:10px;margin:36px 0 14px}
+.pick{border-top:1px solid #14213a;padding:20px 0 8px}
+.pick .rank{font-family:Helvetica,Arial,sans-serif;font-size:13px;letter-spacing:.15em;text-transform:uppercase;color:#8a1f1f}
+.pick h3{font-size:34px;margin:4px 0 6px}
+blockquote{font-size:26px;line-height:1.35;font-style:italic;margin:32px 0;padding:20px 0;border-top:1px solid #999;border-bottom:1px solid #999}
+aside{font-size:15px}
+aside code{font-family:ui-monospace,Menlo,monospace;font-size:13px}
+code{font-family:ui-monospace,Menlo,monospace;font-size:14px;background:#ece5d3;padding:1px 4px}
+.chips span{display:inline-block;border:1px solid #14213a;padding:3px 9px;margin:0 5px 7px 0;font-family:Helvetica,Arial,sans-serif;font-size:12px}
+a{color:#14213a}
+footer{max-width:1020px;margin:0 auto;padding:20px 28px 48px;border-top:4px double #14213a;font-family:Helvetica,Arial,sans-serif;font-size:13px;color:#555}
+</style>
+</head>
+<body>
+<div class="masthead">
+<div class="issue"><span>The browser issue</span><span>Two picks, in order</span><span>Plus one userscript</span></div>
+<img class="banner" src="https://raw.githubusercontent.com/Epsilon0xCell/Favorite-Browser-Picks/main/banner.png" alt="Favorite-Browser-Picks banner">
+<h1>Favorite-Browser-Picks</h1>
+<p class="dek">Two browsers I picked, listed in the order my README lists them, and one small script that moves my searches somewhere else.</p>
+<div class="badges">
+<img src="https://img.shields.io/github/stars/Epsilon0xCell/Favorite-Browser-Picks" alt="Stars">
+<img src="https://img.shields.io/github/forks/Epsilon0xCell/Favorite-Browser-Picks" alt="Forks">
+<img src="https://img.shields.io/github/last-commit/Epsilon0xCell/Favorite-Browser-Picks" alt="Last commit">
+<img src="https://img.shields.io/github/languages/top/Epsilon0xCell/Favorite-Browser-Picks" alt="Top language">
+<img src="https://img.shields.io/github/repo-size/Epsilon0xCell/Favorite-Browser-Picks" alt="Repo size">
+</div>
+</div>
+<main>
+<div class="cols">
+<div>
+<h2>What this is</h2>
+<p>This repo holds two separate things and I keep them separate on this page too. The first is a short pick list: the browsers I point people to, as links. The second is code, a Tampermonkey userscript I wrote that sends DuckDuckGo searches to StartPage.</p>
+<p>My README gives the picks as links and nothing more. It does not write out reasons for either browser, and I am not going to invent reasons here to fill the page. The order is the statement: Opera GX first, Opera Air second. That order is the ranking, and I am leaving it exactly as I wrote it.</p>
+<p>The userscript is the part I can describe in detail, because I can point to what it does line by line. It reads one query value and changes one address. Everything else on this page is that script and its limits.</p>
+
+<h2>The picks, ranked</h2>
+<!-- I kept GX at number one because that is where my README puts it. Moving Air up here to look balanced would rewrite my own list. -->
+<div class="pick"><div class="rank">Pick No. 1</div><h3>Opera GX</h3><p><a href="https://www.opera.com/gx">opera.com/gx</a>. Listed first in the README, so it stands as my number one pick on this page. No install comes from this repo. The link is the whole entry, as it is in the repo.</p></div>
+<div class="pick"><div class="rank">Pick No. 2</div><h3>Opera Air</h3><p><a href="https://www.opera.com/air">opera.com/air</a>. Listed second in the README. Same terms as the first pick: a name and a link, offered as a pick, with nothing in this repo that installs or changes a browser.</p></div>
+<blockquote>These are picks, not code; nothing here installs or changes a browser.</blockquote>
+<p>That line is from my README and it is the honest trade off of the whole list. You get my order and my links. You do not get a test bench, a feature table, or reasons I never wrote down. If I write reasons later, they go in the README first and on this page after.</p>
+</div>
+<aside>
+<img src="https://raw.githubusercontent.com/Epsilon0xCell/Favorite-Browser-Picks/main/logo.png" alt="Favorite-Browser-Picks logo" width="72" height="72">
+<h2>In the same repo: the script</h2>
+<p><code>startpage_redirection.js</code>, a Tampermonkey userscript at version 0.2. On a DuckDuckGo search page it reads the <code>q</code> value and sends the browser to <code>https://www.startpage.com/do/search?q=</code> plus the encoded query. A page with no query is left alone. StartPage is on neither match pattern, so there is no loop.</p>
+<p>It runs at document start on purpose. The redirect has to fire before DuckDuckGo renders, or I see the engine I asked not to use and the browser does the work twice.</p>
+<p>The query is decoded by URLSearchParams and has to be encoded again on the way out. Without that step, a query holding an ampersand or a hash would break out of the <code>q</code> value and change what the StartPage address means. A test with <code>a&amp;b#c</code> stayed inside one parameter.</p>
+<h2>The match fix</h2>
+<p>The script used to carry only <code>*://duckduckgo.com/*</code>. In Tampermonkey rules that matches the bare host only, so it missed <code>www.duckduckgo.com</code> and <code>html.duckduckgo.com</code>, the hosts people actually land on. A second pattern, <code>*://*.duckduckgo.com/*</code>, now sits next to the first. Neither pattern covers the other, so both stay.</p>
+<h2>On the shelf</h2>
+<p class="chips"><span>Opera GX</span><span>Opera Air</span><span>JavaScript</span><span>Tampermonkey</span><span>StartPage</span></p>
+<h2>Honest note</h2>
+<p>I checked the script with a Node harness that stubs <code>window.location</code>. A query page redirected to the right StartPage search, and a page with no query kept its address. The match pattern fix is a reading of Tampermonkey match rules, not a browser run. I did not load the script in a real browser with Tampermonkey in that pass, and the README says so.</p>
+<p><a href="https://github.com/Epsilon0xCell/Favorite-Browser-Picks">The repo</a><br><a href="https://github.com/Epsilon0xCell">My GitHub profile</a></p>
+</aside>
+</div>
+</main>
+<footer>Built by Epsilon0xCell. End of the browser issue. Two links, one script, no reasons invented after the fact.</footer>
+</body>
+</html>
