@@ -4,6 +4,7 @@
 // @version      0.2
 // @description  Redirect DuckDuckGo search queries to StartPage
 // @match        *://duckduckgo.com/*
+// @match        *://*.duckduckgo.com/*
 // @grant        none
 // @run-at       document-start
 // ==/UserScript==
