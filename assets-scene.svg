@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="900" height="260" role="img" aria-label="Nursery mobile scene: stars turning on threads at different speeds over a cot rail">
+<rect width="900" height="260" fill="#241c16"/><line x1="450" y1="0" x2="450" y2="14" stroke="#d8ceb2" stroke-width="3"/>
+<g stroke="#d8ceb2"><line x1="450" y1="10" x2="150" y2="70"/><line x1="450" y1="10" x2="320" y2="50"/><line x1="450" y1="10" x2="600" y2="55"/><line x1="450" y1="10" x2="760" y2="80"/></g>
+<g fill="#c9a23c"><g><animateTransform attributeName="transform" type="rotate" values="0 150 95;18 150 95;0 150 95" dur="11s" repeatCount="indefinite"/><path d="M150 70 l8 17 19 2 -14 13 4 19 -17 -10 -17 10 4 -19 -14 -13 19 -2 Z"/></g>
+<g><animateTransform attributeName="transform" type="rotate" values="0 320 78; -14 320 78;0 320 78" dur="8s" repeatCount="indefinite"/><path d="M320 55 l7 15 17 2 -13 11 3 17 -14 -9 -14 9 3 -17 -13 -11 17 -2 Z"/></g>
+<g><animateTransform attributeName="transform" type="rotate" values="0 600 82;22 600 82;0 600 82" dur="13s" repeatCount="indefinite"/><path d="M600 58 l8 16 18 2 -13 12 4 18 -17 -10 -17 10 4 -18 -13 -12 18 -2 Z"/></g>
+<path d="M700 60 a26 26 0 1 0 12 48 a20 20 0 1 1 -12 -48" fill="#e8e2cd"><animateTransform attributeName="transform" type="translate" values="0 0;30 6;0 0" dur="17s" repeatCount="indefinite"/></path></g>
+<rect x="60" y="215" width="780" height="12" fill="#6e5032"/><g><animateTransform attributeName="transform" type="rotate" values="-4 450 190;4 450 190;-4 450 190" dur="15s" repeatCount="indefinite"/><line x1="450" y1="10" x2="450" y2="130" stroke="#d8ceb2"/><path d="M450 128 l14 30 33 4 -24 22 7 33 -30 -17 -30 17 7 -33 -24 -22 33 -4 Z" fill="#c9a23c" stroke="#8a6d28"/></g>
+<circle cx="830" cy="40" r="3" fill="#fffbe8"/><circle cx="70" cy="30" r="3" fill="#fffbe8"/>
+</svg>
