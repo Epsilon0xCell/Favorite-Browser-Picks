@@ -4,7 +4,7 @@
 
 <p align="center"><img src="logo.png" alt="Favorite-Browser-Picks logo: a rounded browser window cut from dusty teal felt with cream blanket stitching, a mustard felt star pinned at its corner" width="200"></p>
 
-![Banner](banner.png)
+![Banner: a row of felt browser windows in teal, mustard and rust with cream stitching on linen, a felt magnifier at the left and a stitched path rising to a starred window](banner.png)
 
 ![Scene: a mobile seen from the side in three bands of hanging depth, stars turning on their threads at different speeds, the moon crossing a star](assets-scene.svg)
 
