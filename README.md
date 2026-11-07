@@ -1,6 +1,8 @@
-![Intro: a nursery mobile in half light, tin stars and a tin moon on threads over an empty cot, the lowest star huge and close with one bent tip](intro-banner.png)
+![Intro: two felt arrows stitched in cream thread on teal fabric, the first bending away from a small grey felt duck silhouette toward a bright starred window shape](intro-banner.png)
 
 # Favorite-Browser-Picks
+
+<p align="center"><img src="logo.png" alt="Favorite-Browser-Picks logo: a rounded browser window cut from dusty teal felt with cream blanket stitching, a mustard felt star pinned at its corner" width="200"></p>
 
 ![Banner](banner.png)
 
